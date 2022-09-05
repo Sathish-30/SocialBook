@@ -301,7 +301,7 @@ nav {
 
 .write-post-container {
   width: 100%;
-  background-color: #fff;
+  background-color: var(--bg-color);
   border-radius: 6px;
   padding: 20px;
   color: #626262;
@@ -341,6 +341,7 @@ nav {
   border-bottom: 1px solid #ccc;
   background: transparent;
   resize: none;
+  color: #1876f2;
 }
 
 .add-post-link {
@@ -422,6 +423,13 @@ nav {
 }
 .post-row a {
   color: #9a9a9a;
+}
+.post-btn {
+  font-size: 14px;
+  width: 80px;
+  border-radius: 15px;
+  border: none;
+  color: #1876f2;
 }
 .load-btn {
   display: block;
